@@ -1,0 +1,73 @@
+{
+  "release_name": "ISPD-Opt Author-Generated Intent-Style Email Subset",
+  "release_version": "1.0",
+  "release_date": "2026-09-04",
+  "source_benchmark_sha256": "de08465e91cdbbd232cb35de5303592f65759e7430e7fb87d5c3e45f92f9a1a6",
+  "source_benchmark_rows": 3600,
+  "release_rows": 1800,
+  "class_distribution": {
+    "GL": 900,
+    "GP": 900
+  },
+  "generator_distribution": {
+    "chatgpt": 800,
+    "claude": 800,
+    "gemini": 200
+  },
+  "exact_duplicate_record_ids": 0,
+  "exact_duplicate_texts": 0,
+  "text_sha256_matches": 1800,
+  "content_modified_for_release": false,
+  "excluded_columns": [
+    "_source_file"
+  ],
+  "excluded_row_classes": [
+    "HL",
+    "HP"
+  ],
+  "structured_identifier_and_active_content_scans": {
+    "email_address": {
+      "rows": 0,
+      "matches": 0
+    },
+    "live_url": {
+      "rows": 0,
+      "matches": 0
+    },
+    "internet_domain": {
+      "rows": 0,
+      "matches": 0
+    },
+    "ipv4_address": {
+      "rows": 0,
+      "matches": 0
+    },
+    "private_key_header": {
+      "rows": 0,
+      "matches": 0
+    },
+    "common_api_token": {
+      "rows": 0,
+      "matches": 0
+    },
+    "credit_card_candidate": {
+      "rows": 0,
+      "matches": 0
+    },
+    "phone_candidate": {
+      "rows": 0,
+      "matches": 0
+    },
+    "active_html": {
+      "rows": 0,
+      "matches": 0
+    }
+  },
+  "allowed_placeholder_counts": {
+    "[SAFE_ATTACHMENT]": 540,
+    "[SAFE_PORTAL_URL]": 1012
+  },
+  "unexpected_placeholder_counts": {},
+  "automated_scan_scope": "Pattern-based scan for structured identifiers, live network locators, secret-like tokens, payment-card candidates, phone candidates, and active HTML.",
+  "automated_scan_limit": "The scan does not replace author review for contextual identifiability or repository-specific ethics requirements."
+}
