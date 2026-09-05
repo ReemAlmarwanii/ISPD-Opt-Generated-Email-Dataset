@@ -2,6 +2,8 @@
 
 This release provides the exact screened author-generated half of the benchmark used in **Intent-Style Evaluation of Machine-Generated Phishing Email Detection**.
 
+Citable dataset DOI: <https://doi.org/10.5281/zenodo.22336828>.
+
 ## Release contents
 
 - 1,800 records and 32 fields.
